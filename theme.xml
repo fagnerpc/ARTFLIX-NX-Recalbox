@@ -13,8 +13,8 @@ Theme prohibited for commercial use
 <theme>
    <formatVersion>4</formatVersion>
 
-<include subset="systemview" name="1-New NX">./systemviews/newnx.xml</include>
-<include subset="systemview" name="2-NX">./systemviews/nx.xml</include>
+<include subset="systemview" name="1-540p">./systemviews/540p.xml</include>
+<include subset="systemview" name="2-720p">./systemviews/720p.xml</include>
 	<include>./$system/custom.xml</include>
 	<include>./$system/$language/custom.xml</include>
 
