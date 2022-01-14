@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		
+				<text name="info1" extra="true">
+			<text>Were you the greatest in your day at Mega Drive or SNES games? Wanna prove it? Use modified emulators and you will be awarded achievements as you play! Your progress will be tracked so you can complete all your favourite classics to 100%.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>Retro Achievements</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Scott Davies</text>
+		</text>	
+
+
+						<text name="info5" extra="true">
+			<text>DEVELOPER:</text>
+		</text>
+	</view>
+
+	
+</theme>

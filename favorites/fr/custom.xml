@@ -1,0 +1,36 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+	
+		
+				<text name="info1" extra="true">
+			<text>Trouvez tous vos jeux favoris dans un seul système.
+Chaque fois que vous marquez un jeu comme favori dans un système, vous le trouverez ici.
+Prendre plaisir !</text>
+		</text>
+
+						<text name="info2" extra="true">
+			<text>Favoris</text>
+		</text>
+		
+		
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text></text>
+		</text>
+		
+
+			<image name="logo">
+		<path>./../_inc/logos/auto-favorites-fr.png</path>
+	</image>
+		
+				<text name="info5" extra="true">
+			<text>ALEKFULL ARTFLIX</text>
+		</text>
+	</view>
+
+</theme>

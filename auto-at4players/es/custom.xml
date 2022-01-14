@@ -1,0 +1,28 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Aquí se agrupan todos los juegos para 4 jugadores de todos los sistemas disponibles en una sola lista, organizada en orden alfabético. Puedes buscar tu juego favorito por varios criterios a través del sistema.</text>
+		</text>
+
+		
+
+						<text name="info2" extra="true">
+			<text>4 Jugadores</text>
+		</text>
+
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text></text>
+		</text>
+		
+	
+				<text name="info5" extra="true">
+			<text>ALEKFULL ARTFLIX</text>
+		</text>		
+	</view>
+</theme>

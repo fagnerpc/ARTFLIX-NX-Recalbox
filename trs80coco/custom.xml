@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Também chamado Tandy Color Computer (ou tão somente CoCo) foi um computador doméstico, lançado em 1980. Apesar do nome, o TRS-80 Color Computer representou um grande afastamento dos modelos TRS-80 anteriores, em particular porque empregava o microprocessador Motorola MC6809E ao invés do Zilog Z-80, usado nos modelos TRS-80.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>TRS80 CoCo</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1980</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Tandy Corporation</text>
+		</text>		
+	</view>
+</theme>

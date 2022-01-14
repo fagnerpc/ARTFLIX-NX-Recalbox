@@ -1,0 +1,28 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		
+				<text name="info1" extra="true">
+			<text>Los juegos que aún no se han jugado desde todos los sistemas disponibles aparecen aquí en una sola lista, organizada en orden descendente. Puedes buscar tu juego favorito por varios criterios a través del sistema.</text>
+		</text>
+						<text name="info2" extra="true">
+			<text>Nunca jugó</text>
+		</text>
+
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text></text>
+		</text>
+		
+
+				<text name="info5" extra="true">
+			<text>ALEKFULL ARTFLIX</text>
+		</text>		
+	</view>
+
+
+</theme>

@@ -1,0 +1,28 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Você foi o melhor na sua época nos jogos Mega Drive ou SNES? Quer provar? Use emuladores modificados e você receberá conquistas conforme joga! Seu progresso será monitorado para que você possa completar todos os seus clássicos favoritos em 100%.</text>
+		</text>
+
+		
+				<text name="info2" extra="true">
+			<text>Retro Achievements</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Scott Davies</text>
+		</text>	
+
+		<text name="info5" extra="true">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+	</view>
+
+	
+</theme>

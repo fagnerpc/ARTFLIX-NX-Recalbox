@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>La Dragon 32 y Dragon 64 son computadoras domésticas que fueron construidas en la década de 1980. Las Dragon son muy similares a la TRS-80 Color Computer (CoCo), y fueron producidas para el mercado europeo por Dragon Data, Ltd., en puerto Talbot, Gales.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>Dragon 32/64</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1983</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Dragon Data</text>
+		</text>		
+	</view>
+</theme>

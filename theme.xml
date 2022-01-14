@@ -1,0 +1,215 @@
+<!--
+ARTFLIX-NX theme created by 'fagnerpc'
+https://facebook.com/alekfull.arcade
+
+Version: 1.00, January 2022 
+For Recalbox 8.0-Electron
+https://github.com/fagnerpc
+
+Tema proibido para uso comercial
+Theme prohibited for commercial use
+-->
+
+<theme>
+   <formatVersion>4</formatVersion>
+
+<include subset="systemview" name="1-New NX">./systemviews/newnx.xml</include>
+<include subset="systemview" name="2-NX">./systemviews/nx.xml</include>
+	<include>./$system/custom.xml</include>
+	<include>./$system/$language/custom.xml</include>
+
+
+   <view name="system">
+      <sound name="directory">
+	    <path>./music</path>
+      </sound>
+   </view>
+
+
+   <view name="menu, detailed, basic">
+		<helpsystem name="help">
+         <fontPath>./_inc/fonts/Circular Std Book.ttf</fontPath>
+         <fontSize>0.016</fontSize>
+         <pos>0.045 0.955</pos>
+		    <textColor>EFEFEF</textColor>
+            <iconColor>EFEFEF95</iconColor>
+		</helpsystem>
+   </view>
+   
+   <view name="menu">
+      <menuText name="menufooter">
+		 <fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
+		 <fontSize>0.023</fontSize>
+		 <color>868686</color>
+	  </menuText>
+	  <menuText name="menutext"> 
+		 <fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
+		 <fontSize>0.029</fontSize>
+		 <color>868686</color>
+	 	 <separatorColor>191919</separatorColor>
+		 <selectorColor>5e026d</selectorColor>
+		 <selectedColor>FFFFFF</selectedColor>
+	  </menuText>
+	  <menuTextSmall name="menutextsmall">
+		 <fontPath>./_inc/fonts/Circular Std Book.ttf</fontPath>
+		 <color>e0343d</color>
+		 <fontSize>0.022</fontSize>
+	  </menuTextSmall>
+	  <menuText name="menutitle">
+		 <fontPath>./_inc/fonts/OpenSans-Semibold.ttf</fontPath>
+		 <fontSize>0.04</fontSize>
+		 <color>f01e29</color>
+	  </menuText>
+	  <menuBackground name="menubg">
+		 <color>0a0b0c</color>
+		 <path>./_inc/frame.png</path>
+	  </menuBackground>
+	  <menuIcons name="menuicons">
+         <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
+         <iconSystem>./_inc/menu_icons/System.png</iconSystem>
+         <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
+         <iconGames>./_inc/menu_icons/Games.png</iconGames>
+         <iconControllers>./_inc/menu_icons/Controllers.png</iconControllers>
+         <iconUI>./_inc/menu_icons/UI.png</iconUI>
+         <iconSound>./_inc/menu_icons/Sound.png</iconSound>
+         <iconNetwork>./_inc/menu_icons/Network.png</iconNetwork>
+         <iconScraper>./_inc/menu_icons/Scraper.png</iconScraper>
+         <iconAdvanced>./_inc/menu_icons/Advanced.png</iconAdvanced>
+         <iconQuit>./_inc/menu_icons/Quit.png</iconQuit>
+         <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
+         <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
+         <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+		 <iconLicense>./_inc/menu_icons/License.png</iconLicense>
+      </menuIcons>
+   </view>
+
+   <view name="detailed, basic">
+      <textlist name="gamelist">
+         <pos>0.61 0.17</pos>
+         <size>0.34 0.59</size>
+         <selectorColor>ffffff00</selectorColor>
+         <selectedColor>f01e29</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/polan.otf</fontPath>
+         <fontSize>0.015</fontSize>
+		 <lineSpacing>1.975</lineSpacing>
+         <forceUppercase>1</forceUppercase>
+         <alignment>right</alignment>
+		 <zIndex>15</zIndex>
+      </textlist>
+
+      <image name="logo">
+	  	 <path>./_inc/logos/$system.png</path>
+		 <path>./_inc/logos/$system.svg</path>
+         <pos>0.925 0.92</pos>
+         <size>0.11 0</size>
+	  </image>
+	  
+	  <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 -0.082</pos>
+         <size>1 1</size>
+         <path>./_inc/coinops/default.png</path>
+         <path>./_inc/coinops/$system.png</path>		 
+      </image>
+	  
+	  <image name="in-game-layer" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/coinops/overbar.png</path>
+      </image>
+	  
+      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/texgyre.otf</fontPath>
+         <fontSize>0.018</fontSize>
+      </text>
+	  <text name="md_developer, md_publisher, md_genre, md_playcount, md_lastplayed, md_players, md_releasedate">
+         <color>E8A500</color>
+         <fontPath>./_inc/fonts/texgyre.otf</fontPath>
+         <fontSize>0.018</fontSize>
+      </text>
+      <text name="md_description">
+         <pos>0.045 0.85</pos>
+         <size>0.458 0.113</size>
+         <fontSize>0.020</fontSize>
+         <color>FFFFFF</color>
+         <alignment>left</alignment>
+         <fontPath>./_inc/fonts/texgyre.otf</fontPath>
+      </text>
+      <rating name="md_rating">
+         <pos>0.88 0.85</pos>
+         <size>0.05 0.03</size>
+		 <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+
+      <text name="md_lbl_releasedate">
+	     <forceUppercase>1</forceUppercase>
+         <pos>0.55 0.85</pos>
+         <size>0.15 0.018</size>
+      </text>
+      <datetime name="md_releasedate">
+	     <pos>0.65 0.85</pos>
+         <size>0.15 0.018</size>
+		 <alignment>left</alignment>
+      </datetime>
+	  
+      <text name="md_lbl_players">
+	     <forceUppercase>1</forceUppercase>
+         <pos>0.55 0.885</pos>
+         <size>0.15 0.018</size>
+      </text>
+      <text name="md_players">
+         <pos>0.65 0.885</pos>
+         <size>0.15 0.018</size>
+      </text>
+	  
+      <text name="md_lbl_genre">
+	     <forceUppercase>1</forceUppercase>
+         <pos>0.55 0.915</pos>
+         <size>0.15 0.018</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.65 0.915</pos>
+         <size>0.17 0.018</size>
+      </text>
+	  <text name="md_lbl_developer">
+	     <forceUppercase>1</forceUppercase>
+         <pos>0.55 0.945</pos>
+         <size>0.15 0.018</size>
+      </text>
+      <text name="md_developer">
+         <pos>0.65 0.945</pos>
+         <size>0.17 0.018</size>
+      </text>
+ 
+      <text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_playcount, md_lbl_rating, md_lbl_publisher, md_publisher, md_lastplayed">
+         <pos>2 2</pos>
+         <size>0 0</size>
+		 <fontSize>0.0</fontSize>
+		 <zIndex>0</zIndex>
+      </text>
+ 
+		<helpsystem name="help">
+         <fontSize>0.016</fontSize>
+         <pos>0.025 0.985</pos>
+		</helpsystem>	  	  
+
+     <image name="md_image">
+         <pos>0.106 0.22</pos>
+         <size>0.365 0.48</size>
+		 <origin>0 0</origin>
+         <zIndex>8</zIndex>         
+      </image>
+	  <video name="md_video">
+         <pos>0.106 0.22</pos>
+         <size>0.365 0.48</size>
+		 <origin>0 0</origin>
+         <zIndex>8</zIndex>         
+      </video>     
+   </view>
+   
+</theme>

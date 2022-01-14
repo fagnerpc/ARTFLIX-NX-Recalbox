@@ -1,0 +1,28 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Voici regroupés tous les jeux pour 2 joueurs de tous les systèmes disponibles dans une seule liste, classés par ordre alphabétique. Vous pouvez rechercher votre jeu préféré selon divers critères via le système.</text>
+		</text>
+						<text name="info2" extra="true">
+			<text>2 Joueurs</text>
+		</text>
+
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text></text>
+		</text>
+		
+
+	
+				<text name="info5" extra="true">
+			<text>ALEKFULL ARTFLIX</text>
+		</text>		
+	</view>
+
+
+</theme>

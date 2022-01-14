@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>The Texas Instruments TI-99/4A was a pioneer among home computers, launched on the US market in June 1981 at $525. It was an improved version of the less successful and rarer TI-99/ 4, released in 1979 at a price of $1,150.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>TI-99/4A</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1981</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Texas Instruments</text>
+		</text>		
+	</view>
+</theme>

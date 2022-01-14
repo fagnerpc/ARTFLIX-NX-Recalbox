@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+
+				<text name="info1" extra="true">
+			<text>Los últimos jogos jogados de todos los sistemas disponibles aparecen aquí en la lista única, organizada por orden decreciente. Puedes buscar tu juego favorito por varios criterios a través del sistema.</text>
+		</text>
+		</text>
+						<text name="info2" extra="true">
+			<text>Última Jugada</text>
+		</text>
+
+		<text name="info3" extra="true">
+			<text>20XX</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text></text>
+		</text>
+
+		
+		
+				<text name="info5" extra="true">
+			<text>ALEKFULL ARTFLIX</text>
+		</text>		
+	</view>
+
+
+</theme>

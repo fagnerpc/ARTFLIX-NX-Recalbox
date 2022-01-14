@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>La TI-99/4A de Texas Instruments était une pionnière parmi les ordinateurs personnels, lancée sur le marché américain en juin 1981 à 525 $. Il s'agissait d'une version améliorée de la TI-99/4, moins réussie et plus rare, sortie en 1979 au prix de 1 150 $.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>TI-99/4A</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1981</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Texas Instruments</text>
+		</text>		
+	</view>
+</theme>

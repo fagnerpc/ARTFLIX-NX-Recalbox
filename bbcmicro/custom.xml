@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>BBC Microcomputer System é uma série de microcomputadores e periféricos associados desenhados e construídos pela Acorn Computers Ltd para o BBC Computer Literacy Project (um projeto de educação por computador) operado pela British Broadcasting Corporation.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>Acorn BBC Micro</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1981</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Acorn Computers</text>
+		</text>		
+	</view>
+</theme>

@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>LowRes NX a été inspiré par de vrais systèmes 8 et 16 bits et simule des puces pour les graphiques, le son et les E/S qui fonctionnent réellement comme du vrai matériel. Il prend en charge les sprites matériels ainsi que le défilement de parallaxe matériel, et propose même des coupures verticales de blanc et de cadre pour créer des effets rétro authentiques.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>LowRes NX</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2017</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Timo Kloss</text>
+		</text>		
+	</view>
+</theme>

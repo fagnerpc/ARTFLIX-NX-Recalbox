@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>O Dragon 32 foi um computador doméstico produzido na década de 1980. O Dragon 32 era muito similar ao TRS-80 Color Computer (CoCo) da Tandy e foi criado especialmente para o mercado europeu pela Mettoy/Dragon Data Ltda., estabelecida em Port Talbot, País de Gales.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>Dragon 32/64</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1983</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Dragon Data</text>
+		</text>		
+	</view>
+</theme>
